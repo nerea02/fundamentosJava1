@@ -17,9 +17,10 @@ public class FundamentosJava1 {
     public static void main(String[] args) {
         // Crear tres variables una para la edad, otra para el nombre, y una última para su salario
         System.out.println("VARIABLES");
-        int edad = 35;
+        int edad;
         String nombre = "Nerea";
         double salario = 200;
+        edad = 30;
         // Mostrar por pantalla Soy <nombre> tengo <edad> y mi sueldo es de <salario>}
         System.out.println("Soy " + nombre + " tengo " + edad + " años y mi sueldo es de " + salario);
         //paso por paso
@@ -27,6 +28,20 @@ public class FundamentosJava1 {
         System.out.println("edad: " + edad);
         System.out.println("salario: " + salario);
         System.out.println("-------------------------------------------");
+        System.out.println("ESTRUCTURA DE CONTROL - CONDICIONALES");
+        
+        edad = 35;
+        
+        if(edad >= 18){
+            System.out.println("Es mayor de 18");
+        }
+        if (edad es >= 35){
+            System.out.println("No está en el rango de edad");
+    }
+        else {
+            System.out.println("Es menor de 18");
+        }
+        
     }
     
 }
