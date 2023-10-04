@@ -35,13 +35,63 @@ public class FundamentosJava1 {
         if(edad >= 18){
             System.out.println("Es mayor de 18");
         }
-        if (edad es >= 35){
+        if(edad >= 35) {
             System.out.println("No está en el rango de edad");
-    }
+        }
         else {
             System.out.println("Es menor de 18");
         }
+        // sout + tab
+        System.out.println("BUCLE FOR");
+        // El bucle FOR  se utiliza cuando ya sabemos de antemano cuantas veces 
+        // queremos que se ejecute un bloque de código.
+        /*
+        for (inicialización; condición; actualización){
+        instrucciones
+        }
+        */
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Número: "+ i);
+        }
+        // Crear un bucle que inicie en 1 y me muestre hasta el numero 5
         
-    }
-    
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Número: "+i);
+            
+        }
+        // Estudiar estructuras de un arreglo en Java, y como acceder, y como
+        // agregar, y borrar a sus datos
+        
+        System.out.println("------------------------");
+        // Almacena varios valores a la vez
+        int[] numeros = {1,2,3,4,5};
+        /*for (int j = 0; j < numeros.length; j++) {
+            System.out.println("Elemento " + j + ": " + numeros [j]);
+        }
+        System.out.println("-------------------------");
+        System.out.println("BUCLE WHILE");
+        /*
+        El bucle while se utiliza cuando no sabemos de antemano cuantas veces 
+        debe ejecutarse el bloque de codigo; que depende de una condicion para 
+        detenerse
+        */
+        
+        // While (condicion){
+        //      instrucciones (cuerpo);
+        //  }
+        int contador = 1;
+        /*while (contador <= 5) {
+            System.out.println("Número: " + contador);
+            contador ++;
+        }
+        */
+        //int[] numeros = {1,2,3,4,5};
+        // recorrer arreglo con while
+        while(contador < numeros.length) {
+            System.out.println("Número: " + contador + ":" + numeros[contador]);
+            contador ++; }           
+            
+        }
+        
+                }
 }
